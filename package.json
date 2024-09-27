@@ -1,0 +1,19 @@
+{
+  "name": "cse341project",
+  "version": "1.0.0",
+  "description": "CSE341 project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cipher715/cse341project.git"
+  },
+  "author": "Atsushi Karino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cipher715/cse341project.git/issues"
+  },
+  "homepage": "https://github.com/Cipher715/cse341project.git"
+}
