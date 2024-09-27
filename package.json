@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Cipher715/cse341project.git/issues"
   },
-  "homepage": "https://github.com/Cipher715/cse341project.git"
+  "homepage": "https://github.com/Cipher715/cse341project.git",
+  "dependencies": {
+    "express": "^4.21.0"
+  }
 }
