@@ -1,0 +1,52 @@
+##PRODUCTION
+
+##Homepage - just says "Hello World"
+GET https://cse341project-6dui.onrender.com
+
+##Users list (whole)
+GET https://cse341project-6dui.onrender.com/users
+
+[
+  {
+    "_id": "66f72a9b85a02f4c0560d9c3",
+    "email": "atsushi.karino@gmail.com",
+    "username": "Cipher715",
+    "user": "Atsushi",
+    "ipaddress": "119.175.137.59"
+  },
+  {
+    "_id": "66f7393085a02f4c0560d9c6",
+    "email": "test@gmail.com",
+    "username": "kinh",
+    "user": "Ken",
+    "ipaddress": "0.0.0.0"
+  },
+  {
+    "_id": "66f7394885a02f4c0560d9c7",
+    "email": "test@gmail.com",
+    "username": "kjin",
+    "user": "Pop",
+    "ipaddress": "0.0.0.0"
+  },
+  {
+    "_id": "66f7396385a02f4c0560d9c8",
+    "email": "test@gmail.com",
+    "username": "123232",
+    "user": "Lind",
+    "ipaddress": "0.0.0.0"
+  }
+]
+
+
+
+##Individual User info
+GET https://cse341project-6dui.onrender.com/users/66f72a9b85a02f4c0560d9c3
+[
+  {
+    "_id": "66f72a9b85a02f4c0560d9c3",
+    "email": "atsushi.karino@gmail.com",
+    "username": "Cipher715",
+    "user": "Atsushi",
+    "ipaddress": "119.175.137.59"
+  }
+]
